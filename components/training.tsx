@@ -41,7 +41,12 @@ export function Training() {
               transition={{ duration: 0.5, delay: index * 0.08 }}
               whileHover={{ scale: 1.02 }}
             >
-              <VisualPanel className="aspect-[4/3]" mark={String(index + 1).padStart(2, "0")} />
+              <VisualPanel
+                className="aspect-[4/3]"
+                mark={String(index + 1).padStart(2, "0")}
+                image={mode.image}
+                imageClassName="absolute inset-0 m-auto w-[50%] h-[50%] object-contain opacity-90 transition-transform duration-500 group-hover:scale-110"
+              />
               <div className="p-6 flex-1 flex flex-col">
                 <span className="text-primary text-[11px] font-semibold uppercase tracking-[0.25em]">
                   {mode.tagline}

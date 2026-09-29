@@ -45,7 +45,12 @@ export function ArenaSection() {
             animate={isInView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.6, delay: 0.1 }}
           >
-            <VisualPanel className="h-full min-h-[280px] sm:min-h-[420px] rounded-sm" label="El Arena — imagen próxima apertura" />
+            <VisualPanel
+              className="h-full min-h-[280px] sm:min-h-[420px] rounded-sm"
+              label="El Arena — imagen próxima apertura"
+              image="/images/arena-rack.svg"
+              imageClassName="absolute inset-0 m-auto w-[75%] h-[60%] object-contain opacity-90"
+            />
           </motion.div>
 
           <motion.div

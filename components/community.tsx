@@ -24,9 +24,11 @@ export function Community() {
             {Array.from({ length: 9 }).map((_, i) => (
               <VisualPanel
                 key={i}
-                className={i === 4 ? "col-span-1 row-span-1 aspect-square" : "aspect-square"}
+                className="aspect-square"
                 mark={i % 3 === 0 ? "NLD" : "24"}
                 glow={i === 4}
+                image={i === 4 ? "/images/community-group.svg" : undefined}
+                imageClassName="absolute inset-0 m-auto w-[80%] h-[60%] object-contain opacity-90"
               />
             ))}
           </motion.div>

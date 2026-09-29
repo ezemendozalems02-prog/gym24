@@ -6,6 +6,8 @@ interface VisualPanelProps {
   label?: string
   mark?: string
   glow?: boolean
+  image?: string
+  imageClassName?: string
   children?: ReactNode
 }
 
@@ -13,8 +15,18 @@ interface VisualPanelProps {
  * Generative dark/yellow panel used everywhere real Arena photography would
  * normally go. The gym opens in Oct 2026, so there is no real photography yet —
  * this keeps the premium look without borrowing imagery from unrelated brands.
+ * `image` renders an original brand pictogram (see public/images) as a reference
+ * illustration on top of the panel.
  */
-export function VisualPanel({ className, label, mark = "NLD", glow = true, children }: VisualPanelProps) {
+export function VisualPanel({
+  className,
+  label,
+  mark = "NLD",
+  glow = true,
+  image,
+  imageClassName,
+  children,
+}: VisualPanelProps) {
   return (
     <div className={cn("relative overflow-hidden bg-[#0A0A0A]", className)}>
       <div
@@ -36,6 +48,18 @@ export function VisualPanel({ className, label, mark = "NLD", glow = true, child
       >
         {mark}
       </span>
+      {image && (
+        // eslint-disable-next-line @next/next/no-img-element
+        <img
+          src={image}
+          alt=""
+          aria-hidden="true"
+          className={
+            imageClassName ??
+            "absolute inset-0 m-auto w-[55%] h-[55%] object-contain opacity-90 drop-shadow-[0_0_25px_rgba(255,212,0,0.15)]"
+          }
+        />
+      )}
       <div className="absolute inset-0 grain" />
       <div className="absolute inset-0 ring-1 ring-inset ring-white/5" />
       {label && (

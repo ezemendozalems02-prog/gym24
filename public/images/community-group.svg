@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" fill="none">
+  <g stroke="#FFD400" stroke-width="11" stroke-linecap="round">
+    <!-- figure 1: arms raised celebrating -->
+    <circle cx="70" cy="55" r="13" fill="#FFD400" stroke="none" />
+    <line x1="70" y1="68" x2="70" y2="120" />
+    <line x1="70" y1="80" x2="45" y2="45" />
+    <line x1="70" y1="80" x2="95" y2="45" />
+    <line x1="70" y1="120" x2="55" y2="175" />
+    <line x1="70" y1="120" x2="85" y2="175" />
+
+    <!-- figure 2: running mid-stride -->
+    <circle cx="165" cy="40" r="13" fill="#FFD400" stroke="none" />
+    <line x1="165" y1="53" x2="178" y2="105" />
+    <line x1="172" y1="70" x2="145" y2="55" />
+    <line x1="172" y1="70" x2="200" y2="90" />
+    <line x1="178" y1="105" x2="155" y2="140" />
+    <line x1="155" y1="140" x2="165" y2="175" />
+    <line x1="178" y1="105" x2="205" y2="130" />
+    <line x1="205" y1="130" x2="195" y2="170" />
+
+    <!-- figure 3: hands on hips, standing -->
+    <circle cx="255" cy="55" r="13" fill="#FFD400" stroke="none" />
+    <line x1="255" y1="68" x2="255" y2="122" />
+    <line x1="255" y1="80" x2="235" y2="100" />
+    <line x1="255" y1="80" x2="275" y2="100" />
+    <line x1="255" y1="122" x2="240" y2="178" />
+    <line x1="255" y1="122" x2="270" y2="178" />
+  </g>
+</svg>

@@ -28,7 +28,13 @@ export function Hero() {
     <section id="inicio" className="relative min-h-screen flex items-center overflow-hidden bg-background">
       {/* Generative background */}
       <div className="absolute inset-0">
-        <VisualPanel className="absolute inset-0 w-full h-full" glow mark="NLD" />
+        <VisualPanel
+          className="absolute inset-0 w-full h-full"
+          glow
+          mark="NLD"
+          image="/images/hero-lift.svg"
+          imageClassName="absolute right-[-2%] bottom-0 w-[60%] h-[85%] object-contain object-bottom drop-shadow-[0_0_35px_rgba(255,212,0,0.18)]"
+        />
         <div className="absolute inset-0 bg-gradient-to-t from-[#050505] via-[#050505]/70 to-[#050505]/40" />
         <div className="absolute inset-0 bg-gradient-to-r from-[#050505]/70 via-transparent to-transparent" />
         {/* light streak */}

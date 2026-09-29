@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" fill="none">
+  <g stroke="#FFD400" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+    <!-- squat rack uprights -->
+    <line x1="180" y1="60" x2="180" y2="340" />
+    <line x1="340" y1="60" x2="340" y2="340" />
+    <line x1="180" y1="340" x2="140" y2="340" />
+    <line x1="180" y1="340" x2="220" y2="340" />
+    <line x1="340" y1="340" x2="300" y2="340" />
+    <line x1="340" y1="340" x2="380" y2="340" />
+    <line x1="180" y1="100" x2="340" y2="100" stroke-width="5" stroke-opacity="0.6" />
+    <line x1="180" y1="180" x2="340" y2="180" stroke-width="5" stroke-opacity="0.6" />
+    <!-- J-hooks -->
+    <line x1="180" y1="150" x2="200" y2="150" />
+    <line x1="340" y1="150" x2="320" y2="150" />
+    <!-- barbell resting -->
+    <line x1="90" y1="150" x2="430" y2="150" stroke-width="10" />
+    <circle cx="80" cy="150" r="26" fill="#FFD400" stroke="none" />
+    <circle cx="440" cy="150" r="26" fill="#FFD400" stroke="none" />
+  </g>
+  <!-- dumbbell rack -->
+  <g stroke="#FFD400" stroke-width="7" stroke-linecap="round">
+    <line x1="460" y1="340" x2="460" y2="230" />
+    <line x1="500" y1="340" x2="500" y2="230" />
+    <line x1="460" y1="250" x2="500" y2="250" />
+    <line x1="460" y1="280" x2="500" y2="280" />
+    <line x1="460" y1="310" x2="500" y2="310" />
+  </g>
+  <g fill="#FFD400">
+    <circle cx="450" cy="250" r="9" /><circle cx="510" cy="250" r="9" />
+    <circle cx="450" cy="280" r="9" /><circle cx="510" cy="280" r="9" />
+    <circle cx="450" cy="310" r="9" /><circle cx="510" cy="310" r="9" />
+  </g>
+  <line x1="60" y1="340" x2="560" y2="340" stroke="#FFD400" stroke-width="4" stroke-opacity="0.4" />
+</svg>
